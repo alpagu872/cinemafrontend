@@ -1,0 +1,68 @@
+.screen-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen-details-form .form-group {
+    margin-bottom: 15px;
+}
+
+.screen-details-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.screen-details-form .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.screen-details-form .form-input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.screen-details-form .error {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.screen-details-form .submit-button,
+.screen-details-form .delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.screen-details-form .submit-button {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.screen-details-form .submit-button:hover {
+    background-color: #4cae4c;
+}
+
+.screen-details-form .delete-button {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.screen-details-form .delete-button:hover {
+    background-color: #c9302c;
+}
